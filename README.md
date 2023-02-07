@@ -1,3 +1,3 @@
 # Recipe Website
 
-This is a basic "HTML only" website on recipes that I like.
+This is a website on recipes that I like.
