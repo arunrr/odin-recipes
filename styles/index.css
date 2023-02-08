@@ -17,13 +17,14 @@
 
 body {
   background-color: var(--clr-light);
-  height: 100vh;
 }
 
 .container {
   font-size: 1.2rem;
-  min-width: 300px;
-  margin: 20rem 1.5rem;
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 15rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,12 +55,15 @@ body {
 .nav-bar > ul > li {
   font-weight: 800;
   width: 100%;
+  flex: 1 0 30%;
   cursor: pointer;
   text-align: center;
 }
 .nav-bar > ul > li > a {
   display: block;
   text-decoration: none;
+  font-size: 1.5 rem;
+
   padding: 2rem 1rem;
   color: var(--clr-light);
   background-color: var(--clr-medium);
@@ -71,7 +75,7 @@ body {
   background-color: var(--clr-accent);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 850px) {
   .container > h1 {
     font-size: 2.5rem;
   }
